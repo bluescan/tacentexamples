@@ -1,6 +1,6 @@
 #include "mylib.h"
 #include "version.cmake.h"
-#include <system/tPrint.h>
+#include <System/tPrint.h>
 
 void myLib::myLibPrintVersion()
 { 
