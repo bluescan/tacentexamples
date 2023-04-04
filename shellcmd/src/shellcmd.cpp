@@ -8,9 +8,6 @@ int main(int argc, char** argv)
 {
 	tPrintf("shellcmdVersion %d.%d.%d\n", shellcmdVersion::Major, shellcmdVersion::Minor, shellcmdVersion::Revision);
 
-	tImage::tPicture pic(256, 128);
-	pic.SaveTGA("Saved.tga");
-
 #define TEST_LIBPNG_TYPES
 #ifdef TEST_LIBPNG_TYPES
 	int numBytes = 0;
